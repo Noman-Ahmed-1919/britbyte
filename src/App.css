@@ -1,0 +1,4079 @@
+html{
+  scroll-behavior: smooth;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+#logo{
+  position: relative;
+  z-index: 2;
+}
+
+
+.head-web{
+  max-width: 1800px;
+  margin: auto;
+  /* background-image: url(./images/background1.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@font-face {
+  font-family: 'Nova Klasse';
+  src: url('./novaklasse-semibold-BF65f32c1d1314a.otf') format('woff2'),
+    url('./novaklasse-semibold-BF65f32c1d1314a.otf') format('woff');
+
+  /* Add additional file formats if available */
+  /* Add other font properties like font-weight and font-style if needed */
+}
+
+@font-face {
+  font-family: 'otterco Display';
+  src: url('../src/Demo_Fonts/Fontspring-DEMO-otterco-extralight.otf') format('woff2'),
+    url('../src/Demo_Fonts/Fontspring-DEMO-otterco-extralight.otf') format('woff');
+  font-weight: 200;
+  /* Extra light font weight */
+  font-style: normal;
+  /* Adjust font style if needed */
+}
+
+@font-face {
+  font-family: 'otterco Display normal';
+  src: url('../src/Demo_Fonts/Fontspring-DEMO-otterco-regular.otf') format('woff2'),
+    url('../src/Demo_Fonts/Fontspring-DEMO-otterco-regular.otf') format('woff');
+  font-weight: 200;
+  /* Extra light font weight */
+  font-style: normal;
+  /* Adjust font style if needed */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.active-link {
+  font-weight: bold;
+  color: #279EFF;
+  border-bottom: 3px solid white;
+}
+
+.heanav{
+  background-image: url(./images/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.custom-heading {
+  font-family: 'Nova Klasse';
+  /* Use the Nova Klasse font for this heading */
+  font-weight: 600;
+  /* Adjust font weight if needed */
+  font-style: normal;
+}
+
+.h1about {
+  color: #531391;
+  font-family: 'Nova Klasse';
+  font-size: 170px;
+  font-weight: bold;
+  /* margin-left: -900px; */
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: #531391;
+  position: relative;
+  text-align: center;
+}
+
+.inthe {
+  font-family: 'otterco Display';
+
+  color: white;
+
+  text-align: center;
+  font-size: 42px;
+  line-height: 1.1;
+  position: relative;
+}
+
+.aboutwork {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  height: auto;
+  border-radius: 40px;
+  border: 1px solid #531391;
+  background-color: rgba(53, 25, 85, 0.3);
+  /* Semi-transparent background */
+  padding: 30px 22px;
+  margin-top: -509px;
+  margin-bottom: 100px;
+}
+
+
+
+@media screen and (min-width: 1500px) and (max-width: 1800px) {
+
+  .aboutwork {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+    border-radius: 40px;
+    border: 1px solid #531391;
+    background-color: rgba(53, 25, 85, 0.3);
+    /* Semi-transparent background */
+    padding: 30px 22px;
+    display: flex;
+    justify-content: flex-end;
+    /* transform: translateX(143%); */
+    /* margin-left: 1230px; */
+    margin-top: -509px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+
+
+
+
+
+  }
+
+}
+
+.onthe {
+  text-align: center;
+  justify-content: center;
+}
+
+#hide {
+  padding-bottom: -60px;
+
+}
+
+#section1 {
+
+
+
+  background-image: url(./images/background1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Center the background image */
+  width: 100%;
+  /* Ensure the container occupies full width */
+  height: auto;
+  /* Set the container height to full viewport height */
+
+
+}
+
+.guide {
+  font-family: 'otterco Display';
+  text-transform: uppercase;
+
+  text-align: center;
+  color: white;
+  padding-bottom: 140px;
+  padding-top: 20px;
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+
+.sub-sec {
+  position: relative;
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.sub-sec::before {
+  content: "";
+  position: absolute;
+  top: -125px;
+  left: 0;
+  width: 100%;
+  height: 140%;
+  z-index: 1;
+  background-image: url(./images/DESIGN.png);
+
+  animation: rotateImage 5s linear infinite;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.welcome {
+  /* padding-top: 120px; */
+  color: white;
+  font-size: 62px;
+  font-family: 'Nova Klasse', sans-serif;
+  text-align: center;
+  margin-top: 140px;
+  position: relative;
+  z-index: 1;
+  /* line-height: 0.9; */
+
+
+
+}
+
+.welcome1 {
+  color: white;
+  font-size: 84px;
+  font-family: 'Nova Klasse', sans-serif;
+  text-align: center;
+}
+
+.empow {
+  color: white;
+
+
+}
+
+.soon {
+  padding-top: 30px;
+  color: white;
+  font-size: 62px;
+  font-family: 'Nova Klasse', sans-serif;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+
+
+}
+
+
+/* .marquee-container {
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+
+} */
+
+.marquee {
+  font-family: 'Nova Klasse', sans-serif;
+  font-weight: 200;
+  font-size: 44px;
+  color: white;
+
+  white-space: nowrap;
+
+
+}
+
+
+.welcome,
+.marquee {
+  line-height: 0.9;
+}
+
+
+
+
+
+
+
+#section2 {
+
+
+
+  background-image: url(./images/aboutback.png);
+  background-size: cover;
+  margin-top: 0px;
+  overflow: hidden;
+
+
+}
+
+
+
+
+
+
+/* Add styles for header */
+header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Add styles for scrolled header */
+header.scrolled {
+  background-color: #f8f9fa;
+  /* Change background color when scrolled */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add shadow when scrolled */
+}
+
+/* 
+.work1{
+  background-color: #8139A3;
+  border: 1px solid #531391;
+  padding: 18px 26px;
+  border-radius: 10px;
+  color: white;
+  width: 80%;
+  text-align: center;
+  font-size: 24px;
+
+} */
+
+
+#brandsec1 {
+  background-image: url(./images/back1.png);
+  background-size: cover;
+}
+
+.h1brand {
+  font-family: 'Nova Klasse';
+
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#img1 {
+  width: 190px;
+  margin-bottom: 50px;
+  padding: 0px 10%;
+}
+
+/* .brand-img {
+  width: 190px; 
+  margin-right: 50px; 
+  margin-bottom: 50px; 
+} */
+
+/* Remove the margin from the last image */
+.brand-img:last-child {
+  margin-right: 0;
+}
+
+
+
+#digitalback {
+  background-image: url(./images/digitalback.png);
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-blend-mode: multiply;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* Horizontal offset, vertical offset, blur radius, color */
+
+
+}
+
+
+
+#sec11 {
+
+  border-top-right-radius: 100px;
+  background-image: url(./images/digisec1.webp);
+  height: 320px;
+
+
+
+}
+
+#sec12 {
+  background-image: url(./images/digisec2.webp);
+  background-size: cover;
+  border-top-left-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 320px;
+
+
+
+}
+
+#sec121 {
+  background-image: url(./images/digisec4.webp);
+  background-size: cover;
+  border-top-left-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 320px;
+
+
+}
+
+#sec122 {
+  background-image: url(./images/digisec6.webp);
+  background-size: cover;
+  border-top-left-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 320px;
+
+
+}
+
+
+#sec13 {
+  background-image: url(./images/digisec3.webp);
+  background-size: cover;
+  /* border-top-left-radius: 50px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 320px;
+
+
+}
+
+#sec131 {
+  background-image: url(./images/digisec5.webp);
+  background-size: cover;
+  /* border-top-left-radius: 50px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+}
+
+#sec132 {
+  background-image: url(./images/digisec7.webp);
+  background-size: cover;
+  border-top-right-radius: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 340px;
+
+
+}
+
+.digital1 {
+  max-width: 100%;
+  width: 322px;
+  padding-top: 92px;
+  padding-left: 30px;
+  background-blend-mode: multiply;
+
+}
+
+.digital2 {
+  max-width: 100%;
+  width: 322px;
+  padding-top: 145px;
+  padding-left: 30px;
+}
+
+.digital24 {
+  max-width: 100%;
+  width: 322px;
+  padding-top: 167px;
+  padding-left: 30px;
+}
+
+.digital26 {
+  max-width: 100%;
+  width: 322px;
+  padding-top: 153px;
+  padding-left: 30px;
+}
+
+.digital37 {
+  max-width: 100%;
+  width: 322px;
+  padding-top: 161px;
+  padding-left: 30px;
+}
+
+.digital3 {
+  max-width: 100%;
+  width: 322px;
+  padding-top: 147px;
+  padding-left: 30px;
+}
+
+.h1digit {
+  color: white;
+  font-size: 44px;
+  font-weight: bold;
+  padding-top: 45px;
+  font-family: 'Nova Klasse';
+  padding-left: 30px;
+  padding-right: 20px;
+
+
+
+
+}
+
+.atp {
+  font-family: 'otterco Display normal';
+
+  color: white;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+
+.getbtn {
+  border: 1px solid #AFAFAF;
+  color: white;
+  font-weight: bold;
+  border-radius: 100px;
+  background-color: #635280;
+  padding: 06px 18px;
+  float: right;
+  margin-right: 45px;
+  margin-top: -12px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background-position 0.4s ease;
+}
+
+.getbtn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+  transition: width 0.4s ease;
+}
+
+.getbtn:hover {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+  /* Gradient colors */
+  transition: width 0.4s ease;
+}
+
+.getbtn:hover::before {
+  width: 0;
+}
+
+.getbtn:hover {
+  background-position: right;
+}
+
+.getbtn2 {
+  border: 1px solid #AFAFAF;
+  color: white;
+  font-weight: bold;
+  border-radius: 100px;
+  background-color: #635280;
+  padding: 06px 18px;
+  float: right;
+  margin-right: 45px;
+  margin-top: 0px;
+  position: relative; /* Added for positioning pseudo-element */
+  overflow: hidden; /* Added to hide overflow of pseudo-element */
+}
+.getbtn2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+  transition: width 0.4s ease;
+}
+
+.getbtn2:hover {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+  /* Gradient colors */
+  transition: width 0.4s ease;
+}
+
+.getbtn2:hover::before {
+  width: 0;
+}
+
+.getbtn2:hover {
+  background-position: right;
+}
+
+
+
+.getbtn1 {
+  border: 1px solid #AFAFAF;
+  color: white;
+  font-weight: bold;
+  border-radius: 100px;
+  background-color: #635280;
+  padding: 06px 18px;
+  float: right;
+  margin-right: 45px;
+  margin-top: -15px;
+  position: relative; /* Added for positioning pseudo-element */
+  overflow: hidden; /* Added to hide overflow of pseudo-element */
+}
+.getbtn1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+  transition: width 0.4s ease;
+}
+
+.getbtn1:hover {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+  /* Gradient colors */
+  transition: width 0.4s ease;
+}
+
+.getbtn1:hover::before {
+  width: 0;
+}
+
+.getbtn1:hover {
+  background-position: right;
+}
+
+
+.h1footer {
+  text-align: center;
+  color: white;
+  font-family: 'Nova Klasse', sans-serif;
+  /* 
+  background: linear-gradient(white 20%, white 13%, #7713DB 33%, #7713DB 76%, white 13%, white 13%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+
+  /* background: linear-gradient(white 10%, #7713DB 40%, white 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+
+  background: linear-gradient(to right, white 10%, #7713DB 40%, white 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+#footerback {
+  background-image: url(./images/footerback.png);
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+  /* Horizontal offset, vertical offset, blur radius, spread radius, and color */
+
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  /* Adjust as needed for the desired width */
+
+
+}
+
+.social-links li {
+  margin-right: 10px;
+  /* Adjust the gap between items */
+  font-size: 24px;
+  font-family: 'otterco Display';
+
+
+}
+
+.social-links li a {
+  margin-right: 10px;
+  /* Adjust the gap between items */
+  font-size: 24px;
+  font-family: 'otterco Display';
+  color: white;
+  text-decoration: none;
+
+}
+
+.social-links li a:hover {
+  margin-right: 10px;
+  /* Adjust the gap between items */
+  font-size: 24px;
+  font-family: 'otterco Display';
+  color: purple;
+
+
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+  /* Remove margin from the last item */
+}
+
+.social-links li span {
+  color: white;
+  /* Set text color to white */
+  margin-right: 5px;
+  /* Adjust the gap between text and arrow */
+}
+
+.social-links li span.arrow {
+  transform: rotate(-45deg);
+  /* Rotate the arrow */
+}
+
+.enter {
+  margin-top: 60px;
+  font-size: 20px;
+  font-family: 'otterco Display';
+  background-color: transparent;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  resize: none;
+  /* Prevent textarea from being resized */
+
+  outline: none;
+  /* Remove outline on focus */
+  background-color: transparent;
+  color: white;
+
+}
+
+.enter::placeholder {
+
+  color: white;
+
+}
+
+.sendbutton {
+  background-color: transparent;
+  background: linear-gradient(to right, white 10%, #7713DB 40%, white 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  position: relative;
+  text-align: right;
+}
+
+.sendbutton:hover {
+  background-color: white;
+  background: linear-gradient(to right, white 10%, #7713DB 40%, white 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sendbutton-main {
+  position: relative;
+  text-align: end;
+  top: -48px;
+  left: -11px;
+}
+
+.right-arrow {
+  color: white;
+  width: 20px;
+}
+
+.horizontal-links {
+  display: flex;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 50%;
+  /* Adjust as needed for the desired width */
+}
+
+.horizontal-links a {
+  margin-right: 60px;
+  /* Adjust spacing between links */
+  color: white;
+  /* Set link color */
+  text-decoration: none;
+  /* Remove underline */
+  font-family: 'otterco Display';
+
+}
+
+.horizontal-links a:last-child {
+  margin-right: 0;
+  /* Remove margin from the last link */
+}
+
+.horizontal-links a:hover {
+  text-decoration: underline;
+  /* Underline on hover */
+
+}
+
+.contact-detail {
+  font-size: 24px;
+  color: white;
+  font-family: 'otterco Display';
+
+}
+
+.message-box {
+  border: 5px solid 9C9C9C;
+  padding-top: 10px;
+  border-radius: 50px;
+
+  resize: none;
+  /* Prevent textarea from being resized */
+  border: none;
+  /* Remove default textarea border */
+  outline: none;
+  /* Remove outline on focus */
+  background-color: transparent;
+
+}
+
+.message-input {
+  width: 100%;
+  height: 150px;
+  background-color: transparent;
+
+  border-bottom-left-radius: 10px;
+  /* Radius for bottom left corner */
+  border-bottom-right-radius: 10px;
+  color: white;
+}
+
+
+.h1newsletter {
+
+  /* transform: translate(-50%, -50%); */
+  position: relative;
+  bottom: 360px;
+  text-align: center;
+  color: white;
+  font-family: 'Nova Klasse', sans-serif;
+  background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+  /* Ensures the text is above the image */
+  margin-top: 30px;
+  font-size: 60px;
+
+
+}
+
+
+
+
+.shrink-section {
+
+  padding-top: 50px;
+
+}
+
+.newsimg1 {
+
+  width: 100%;
+  height: auto;
+  /* This will maintain the aspect ratio */
+  max-width: 100%;
+  padding-left: 20px;
+}
+
+
+
+#newsmain {
+  background-color: #240031;
+  /* Set background color */
+  padding-top: 50px;
+  margin-bottom: -120px;
+  /* overflow: hidden; */
+
+}
+
+
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 340px;
+}
+
+.email-input {
+  border: none;
+  border-radius: 25px;
+  padding: 25px 20px;
+  background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+  color: #1C0034;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  padding-right: 320px;
+}
+
+#custom-input::placeholder {
+  /* Change the color of the placeholder text here */
+  color: #1C0034;
+
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.subscribe-btn {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: white;
+  color: purple;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.subscribe-btn:hover {
+  background-color: #f1f1f1;
+  color: #555;
+}
+
+
+.h1reviews {
+  font-family: 'Nova Klasse';
+  font-size: 160px;
+  font-weight: bold;
+ 
+  color: white;
+  position: relative;
+  /* Add position property */
+  z-index: 2;
+  /* Set a lower z-index value */
+ 
+
+}
+
+#reviews-main {
+  background-image: url(./images/Reviewsback.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Center the background image */
+  overflow: hidden;
+  /* height: 100vh; */
+
+
+}
+
+.testimonial-container {
+  width: 410px;
+  padding: 30px;
+  border-radius: 50px;
+  background-color: #641ed6;
+  color: #9f74e2;
+  display: flex;
+  /* Make the container a flex container */
+  flex-direction: column;
+  /* Align children vertically */
+  /* align-items: center; Center children horizontally   */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+
+
+}
+.testimonial-content {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-container:hover .testimonial-content {
+  transform: scale(1.05);
+  color: #279EFF;
+}
+.testimonial-container {
+  position: relative;
+  /* Ensure testimonial containers have a positioning context */
+  z-index: 2;
+
+}
+
+#mar-jack{
+  margin-top: 300px;
+  margin-bottom: 120px;
+
+}
+
+.testimonial-content {
+  display: flex;
+  margin-bottom: 10px;
+
+
+}
+
+.testimonial-heading {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 28px;
+  /* font-weight: bold; */
+  font-family: 'Nova Klasse';
+  /* padding-right: 30px; */
+  padding-left: 10px;
+
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  margin: 05px 5px;
+}
+
+.stars-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 15px;
+  line-height: 1.1;
+  padding-left: 10px;
+
+}
+.testimonial-text {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-container:hover .testimonial-text {
+  transform: scale(1.05);
+  color: white;
+}
+
+.testimonial-flex {
+  display: flex;
+  justify-content: center;
+  /* Center the flex items horizontally */
+  align-items: center;
+  /* Center the flex items vertically */
+  gap: 80px;
+  /* Add some gap between the flex items */
+}
+
+/* #flex-right {
+  margin-left: 80px;
+} */
+
+
+
+
+#sec-rev{
+ 
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+
+}
+
+.rev-margintop{
+   
+height: 100%;
+}
+
+/*======================== work css ============================== */
+
+#work-main {
+  background: linear-gradient(#7200CC, #2EB5F0);
+  overflow: hidden;
+
+}
+
+.h1work {
+  font-family: 'Nova Klasse';
+  font-size: 200px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  transition: position 0.3s ease, opacity 0.3s ease;
+
+  padding-bottom: 50px;
+}
+
+.h2project {
+  color: white;
+  font-size: 100px;
+  margin-left: 101%;
+  /* Move off-screen to the right */
+  margin-top: 280px;
+
+  position: fixed;
+  top: 10px;
+}
+
+.h2project1 {
+  color: white;
+  font-size: 100px;
+  margin-left: 101%;
+  /* Move off-screen to the right */
+  margin-top: 440px;
+
+  position: fixed;
+  top: 10px;
+}
+
+.h3tenup {
+  color: white;
+  margin-left: 25%;
+  margin-top: 300px;
+  position: fixed;
+  top: 10px;
+  visibility: hidden;
+  /* Initially hide the element */
+  z-index: 2;
+
+}
+
+.h3tenup.visible {
+  visibility: visible;
+  /* Show the element when needed */
+}
+
+.workimg1 {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: auto;
+  z-index: 1;
+
+}
+
+#gape-img {
+  padding-top: 480px;
+}
+
+#gape-img2 {
+  padding-top: 50px;
+}
+
+#gape-img3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.main-heading {
+  max-width: 686px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media screen and (min-width: 1800.50px) and (max-width: 2200px) {
+  .main-heading {
+    max-width: 553px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+/* =================Responsiveness============  */
+
+@media screen and (min-width: 1500px) and (max-width: 1800px) {
+
+
+  #section1 {
+
+    background-image: url(./images/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Center the background image */
+    width: 100%;
+    /* Ensure the container occupies full width */
+    height: auto;
+
+  }
+
+
+  /* .marquee-container {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+  } */
+
+
+
+  .marquee {
+    font-family: 'Nova Klasse', sans-serif;
+    font-weight: 200;
+    font-size: 44px;
+    color: white;
+    white-space: nowrap;
+  }
+
+  .welcome {
+    color: white;
+    font-size: 77px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+    margin-top: 140px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .welcome1 {
+    color: white;
+    font-size: 107px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+  }
+
+  .guide {
+    font-family: 'otterco Display';
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 32px;
+    font-size: 27px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .sub-sec {
+    position: relative;
+    width: 100%;
+
+    overflow: hidden;
+  }
+
+  .sub-sec::before {
+    content: "";
+    position: absolute;
+    top: -208px;
+    left: 0;
+    width: 100%;
+    height: 140%;
+    z-index: 1;
+    background-image: url(./images/DESIGN.png);
+    animation: rotateImage 5s linear infinite;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @keyframes rotateImage {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+
+
+  #section1 {
+
+    background-image: url(./images/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Center the background image */
+    width: 100%;
+    /* Ensure the container occupies full width */
+    height: auto;
+    overflow: hidden;
+
+
+
+  }
+
+
+
+  .marquee {
+    font-family: 'Nova Klasse', sans-serif;
+    font-weight: 200;
+    font-size: 44px;
+    color: white;
+    white-space: nowrap;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    /* Display as inline block to center */
+
+  }
+
+
+
+
+  .welcome {
+    /* padding-top: 120px; */
+    color: white;
+    font-size: 77px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+    margin-top: 140px;
+    position: relative;
+    z-index: 1;
+    /* line-height: 0.9; */
+  }
+
+  .welcome1 {
+    color: white;
+    font-size: 106px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+  }
+
+  .guide {
+    font-family: 'otterco Display';
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 32px;
+    font-size: 27px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .sub-sec {
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+
+    overflow: hidden;
+  }
+
+  .sub-sec::before {
+    content: "";
+    position: absolute;
+    top: -208px;
+    left: 0;
+    width: 100%;
+    height: 140%;
+    z-index: 1;
+    background-image: url(./images/DESIGN.png);
+    animation: rotateImage 5s linear infinite;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @keyframes rotateImage {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+}
+
+
+
+@media screen and (min-width: 998px) and (max-width: 1200px) {
+
+
+  #section1 {
+
+    background-image: url(./images/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Center the background image */
+    width: 100%;
+    /* Ensure the container occupies full width */
+    height: auto;
+
+  }
+
+  .marquee {
+    font-family: 'Nova Klasse', sans-serif;
+    font-weight: 200;
+    font-size: 44px;
+    color: white;
+    white-space: nowrap;
+    padding-right: 12px;
+  }
+
+  .welcome {
+    /* padding-top: 120px; */
+    color: white;
+    font-size: 77px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+    margin-top: 140px;
+    position: relative;
+    z-index: 1;
+    /* line-height: 0.9; */
+  }
+
+  .welcome1 {
+    color: white;
+    font-size: 106px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+  }
+
+  .guide {
+    font-family: 'otterco Display';
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 32px;
+    font-size: 27px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .sub-sec {
+    position: relative;
+    width: 100%;
+
+    overflow: hidden;
+  }
+
+  .sub-sec::before {
+    content: "";
+    position: absolute;
+    top: -130px;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: 1;
+    background-image: url(./images/DESIGN.png);
+    animation: rotateImage 5s linear infinite;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @keyframes rotateImage {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+  .main-heading {
+    max-width: 559px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #section1 {
+
+    background-image: url(./images/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Center the background image */
+    width: 100%;
+    /* Ensure the container occupies full width */
+    height: auto;
+
+  }
+
+  .marquee {
+    font-family: 'Nova Klasse', sans-serif;
+    font-weight: 200;
+    font-size: 44px;
+    color: white;
+    white-space: nowrap;
+    padding-right: 12px;
+  }
+
+  .welcome {
+    color: white;
+    font-size: 62px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+    margin-top: 140px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .welcome1 {
+    color: white;
+    font-size: 86px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+  }
+
+  .guide {
+    font-family: 'otterco Display';
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 32px;
+    font-size: 27px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .sub-sec {
+    position: relative;
+    width: 100%;
+
+    overflow: hidden;
+  }
+
+  .sub-sec::before {
+    content: "";
+    position: absolute;
+    top: -56px;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    z-index: 1;
+    background-image: url(./images/DESIGN.png);
+    animation: rotateImage 5s linear infinite;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @keyframes rotateImage {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 556px) and (max-width: 768px) {
+  .main-heading {
+    max-width: 446px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #section1 {
+
+    background-image: url(./images/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Center the background image */
+    width: 100%;
+    /* Ensure the container occupies full width */
+    height: auto;
+
+  }
+
+
+  .marquee {
+    font-family: 'Nova Klasse', sans-serif;
+    font-weight: 200;
+    font-size: 44px;
+    color: white;
+    white-space: nowrap;
+    padding-right: 12px;
+  }
+
+  .welcome {
+    color: white;
+    font-size: 50px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+    /* line-height: 0.9; */
+  }
+
+  .welcome1 {
+    color: white;
+    font-size: 68px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+  }
+
+
+
+  .guide {
+    font-family: 'otterco Display';
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 32px;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .sub-sec {
+    position: relative;
+    width: 100%;
+
+    overflow: hidden;
+  }
+
+  .sub-sec::before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    z-index: 1;
+    background-image: url(./images/DESIGN.png);
+    animation: rotateImage 5s linear infinite;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @keyframes rotateImage {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 556px) {
+
+  .main-heading {
+    max-width: 226px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #section1 {
+
+    background-image: url(./images/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Center the background image */
+    width: 100%;
+    /* Ensure the container occupies full width */
+    height: auto;
+
+  }
+
+
+  .marquee {
+    font-family: 'Nova Klasse', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+    white-space: nowrap;
+  }
+
+  .welcome {
+    /* padding-top: 120px; */
+    color: white;
+    font-size: 25px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+    /* line-height: 0.9; */
+  }
+
+  .welcome1 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Nova Klasse', sans-serif;
+    text-align: center;
+  }
+
+  .guide {
+    font-family: 'otterco Display';
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 50px;
+    font-size: 9px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .sub-sec {
+    position: relative;
+    width: 100%;
+
+    /* overflow: hidden; */
+  }
+
+  .sub-sec::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: url(./images/DESIGN.png);
+    animation: rotateImage 5s linear infinite;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+  @keyframes rotateImage {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+
+  }
+}
+
+/* =================Sec-3 marquee responsiveness============  */
+
+@media screen and (min-width: 1400px) and (max-width: 1900px) {
+
+  #img1 {
+    width: 261px;
+    margin-bottom: 50px;
+    padding: 0px 10%;
+  }
+
+
+}
+
+
+/* =================Sec-4 newsletter responsiveness============  */
+
+
+@media screen and (min-width: 1650px) and (max-width: 1800px) {
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    bottom: 581px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 30px;
+    font-size: 92px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 512px;
+  }
+
+  .email-input {
+    border: none;
+    border-radius: 25px;
+    padding: 42px 20px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    /* padding-right: 606px; */
+    width: 791px;
+    /* Adjust width as needed */
+
+  }
+
+  .subscribe-btn {
+    position: absolute;
+    top: 9px;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 22px 43px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 28px;
+  }
+
+  #custom-input::placeholder {
+    /* Change the color of the placeholder text here */
+    color: #1C0034;
+    font-size: 46px;
+    font-family: 'otterco Display';
+    font-weight: bold;
+
+  }
+
+  .shrink-section {
+    padding-top: 100px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1400px) and (max-width: 1900px) {
+
+  #img1 {
+    width: 261px;
+    margin-bottom: 50px;
+    padding: 0px 10%;
+  }
+
+
+}
+
+
+@media screen and (min-width: 1900px) and (max-width: 2200px) {
+
+  #img1 {
+    width: 305px;
+    margin-bottom: 50px;
+    padding: 0px 10%;
+  }
+
+
+}
+
+/* =================Sec-4 newsletter responsiveness============  */
+
+
+@media screen and (min-width: 1500px) and (max-width: 1650px) {
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    bottom: 546px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 30px;
+    font-size: 92px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 495px;
+  }
+
+  .email-input {
+    border: none;
+    border-radius: 25px;
+    padding: 42px 20px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    /* padding-right: 606px; */
+    width: 791px;
+    /* Adjust width as needed */
+
+  }
+
+  .subscribe-btn {
+    position: absolute;
+    top: 9px;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 22px 43px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 28px;
+  }
+
+  #custom-input::placeholder {
+    /* Change the color of the placeholder text here */
+    color: #1C0034;
+    font-size: 46px;
+    font-family: 'otterco Display';
+    font-weight: bold;
+
+  }
+
+  .shrink-section {
+    padding-top: 100px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    bottom: 519px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 30px;
+    font-size: 92px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 477px;
+  }
+
+  .email-input {
+    border: none;
+    border-radius: 25px;
+    padding: 42px 20px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    /* padding-right: 606px; */
+    width: 791px;
+    /* Adjust width as needed */
+
+  }
+
+  .subscribe-btn {
+    position: absolute;
+    top: 9px;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 22px 43px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 28px;
+  }
+
+  #custom-input::placeholder {
+    /* Change the color of the placeholder text here */
+    color: #1C0034;
+    font-size: 46px;
+    font-family: 'otterco Display';
+    font-weight: bold;
+
+  }
+
+  .shrink-section {
+    padding-top: 100px;
+  }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    bottom: 485px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 30px;
+    font-size: 77px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 438px;
+  }
+
+  .email-input {
+    border: none;
+    border-radius: 25px;
+    padding: 42px 20px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    /* padding-right: 606px; */
+    width: 687px;
+    /* Adjust width as needed */
+
+  }
+
+  .subscribe-btn {
+    position: absolute;
+    top: 9px;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 22px 43px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 28px;
+  }
+
+  #custom-input::placeholder {
+    /* Change the color of the placeholder text here */
+    color: #1C0034;
+    font-size: 46px;
+    font-family: 'otterco Display';
+    font-weight: bold;
+
+  }
+
+  .shrink-section {
+    padding-top: 100px;
+  }
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    bottom: 485px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 62px;
+    font-size: 72px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 438px;
+  }
+
+  .email-input {
+    border: none;
+    border-radius: 25px;
+    padding: 42px 20px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    /* padding-right: 606px; */
+    width: 687px;
+    /* Adjust width as needed */
+
+  }
+
+  .subscribe-btn {
+    position: absolute;
+    top: 9px;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 22px 43px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 28px;
+  }
+
+  #custom-input::placeholder {
+    /* Change the color of the placeholder text here */
+    color: #1C0034;
+    font-size: 46px;
+    font-family: 'otterco Display';
+    font-weight: bold;
+
+  }
+
+  .shrink-section {
+    padding-top: 100px;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    bottom: 485px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 105px;
+    font-size: 54px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 448px;
+  }
+
+  .email-input {
+    border: none;
+    border-radius: 25px;
+    padding: 42px 20px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    /* padding-right: 606px; */
+    width: 494px;
+    /* Adjust width as needed */
+
+  }
+
+  .subscribe-btn {
+    position: absolute;
+    top: 9px;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 22px 43px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 28px;
+  }
+
+  #custom-input::placeholder {
+    /* Change the color of the placeholder text here */
+    color: #1C0034;
+    font-size: 24px;
+    font-family: 'otterco Display';
+    font-weight: bold;
+
+  }
+
+  .shrink-section {
+    padding-top: 100px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    bottom: 485px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 147px;
+    font-size: 54px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 463px;
+  }
+
+  .email-input {
+    border: none;
+    border-radius: 25px;
+    padding: 34px 20px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    /* padding-right: 606px; */
+    width: 494px;
+    /* Adjust width as needed */
+
+  }
+
+  .subscribe-btn {
+    position: absolute;
+    top: 11px;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 14px 40px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 28px;
+  }
+
+  #custom-input::placeholder {
+    /* Change the color of the placeholder text here */
+    color: #1C0034;
+    font-size: 24px;
+    font-family: 'otterco Display';
+    font-weight: bold;
+
+  }
+
+  .shrink-section {
+    padding-top: 100px;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    bottom: 485px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 178px;
+    font-size: 48px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 463px;
+  }
+
+  .email-input {
+    border: none;
+    border-radius: 25px;
+    padding: 34px 20px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    width: 429px;
+    /* Adjust width as needed */
+
+  }
+
+  .subscribe-btn {
+    position: absolute;
+    top: 15px;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 8px 21px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 28px;
+  }
+
+  #custom-input::placeholder {
+    /* Change the color of the placeholder text here */
+    color: #1C0034;
+    font-size: 24px;
+    font-family: 'otterco Display';
+    font-weight: bold;
+
+  }
+
+  .shrink-section {
+    padding-top: 100px;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    bottom: 485px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 209px;
+    font-size: 42px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 463px;
+  }
+
+  .email-input {
+    border: none;
+    border-radius: 25px;
+    padding: 23px 15px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    width: 373px;
+    /* Adjust width as needed */
+
+  }
+
+  .subscribe-btn {
+    position: absolute;
+    top: 9px;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 3px 10px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 28px;
+  }
+
+  #custom-input::placeholder {
+    /* Change the color of the placeholder text here */
+    color: #1C0034;
+    font-size: 24px;
+    font-family: 'otterco Display';
+    font-weight: bold;
+
+  }
+
+  .shrink-section {
+    padding-top: 100px;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    bottom: 485px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 244px;
+    font-size: 40px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 463px;
+  }
+
+  .email-input {
+    border: none;
+    border-radius: 25px;
+    padding: 23px 15px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    width: 366px;
+    /* Adjust width as needed */
+
+  }
+
+  .subscribe-btn {
+    position: absolute;
+    top: 9px;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 3px 10px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 28px;
+  }
+
+  #custom-input::placeholder {
+    /* Change the color of the placeholder text here */
+    color: #1C0034;
+    font-size: 24px;
+    font-family: 'otterco Display';
+    font-weight: bold;
+
+  }
+
+  .shrink-section {
+    padding-top: 100px;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 620px) and (max-width: 700px) {
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    bottom: 485px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 267px;
+    font-size: 34px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 477px;
+  }
+
+  .email-input {
+    border: none;
+    border-radius: 25px;
+    padding: 23px 15px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    width: 313px;
+    /* Adjust width as needed */
+
+  }
+
+  .subscribe-btn {
+    position: absolute;
+    top: 9px;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 3px 10px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 28px;
+  }
+
+  #custom-input::placeholder {
+    /* Change the color of the placeholder text here */
+    color: #1C0034;
+    font-size: 24px;
+    font-family: 'otterco Display';
+    font-weight: bold;
+
+  }
+
+  .shrink-section {
+    padding-top: 100px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 100px) and (max-width: 620px) {
+
+  #newsmain {
+    display: none;
+  }
+
+  .h1newsletter {
+    /* transform: translate(-50%, -50%); */
+    /* position: relative;
+    bottom: 360px; */
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 620px) and (max-width: 2000px) {
+
+  #mobile {
+    display: none;
+  }
+}
+
+
+
+
+/* =========================== Responsive of Digital ============================  */
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
+
+  .digital1 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 112px;
+    padding-left: 30px;
+    background-blend-mode: multiply;
+  }
+
+  .atp {
+    font-family: 'otterco Display normal';
+    color: white;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .getbtn {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 45px;
+    margin-top: 0px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 0.4s ease;
+  }
+
+  .getbtngraphic {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -19px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 0.4s ease;
+  }
+  .getbtngraphic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    transition: width 0.4s ease;
+  }
+  
+  .getbtngraphic:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    /* Gradient colors */
+    transition: width 0.4s ease;
+  }
+  
+  .getbtngraphic:hover::before {
+    width: 0;
+  }
+  
+  .getbtngraphic:hover {
+    background-position: right;
+  }
+
+  .getbtnapp {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -19px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 0.4s ease;
+  }
+  .getbtnapp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    transition: width 0.4s ease;
+  }
+  
+  .getbtnapp:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    /* Gradient colors */
+    transition: width 0.4s ease;
+  }
+  
+  .getbtnapp:hover::before {
+    width: 0;
+  }
+  
+  .getbtnapp:hover {
+    background-position: right;
+  }
+
+  #getbtnweb {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 45px;
+    margin-top: 0px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 0.4s ease;
+  }
+ 
+
+  .getbtn2 {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -15px;
+    position: relative; /* Added for positioning pseudo-element */
+    overflow: hidden; /* Added to hide overflow of pseudo-element */
+  }
+  .getbtn2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    transition: width 0.4s ease;
+  }
+  
+  .getbtn2:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    /* Gradient colors */
+    transition: width 0.4s ease;
+  }
+  
+  .getbtn2:hover::before {
+    width: 0;
+  }
+  
+  .getbtn2:hover {
+    background-position: right;
+  }
+  
+ 
+
+  .getbtn1 {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -20px;
+    position: relative; /* Added for positioning pseudo-element */
+    overflow: hidden; /* Added to hide overflow of pseudo-element */
+  }
+  .getbtn1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    transition: width 0.4s ease;
+  }
+  
+  .getbtn1:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    /* Gradient colors */
+    transition: width 0.4s ease;
+  }
+  
+  .getbtn1:hover::before {
+    width: 0;
+  }
+  
+  .getbtn1:hover {
+    background-position: right;
+  }
+
+  #getbtnui {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -19px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 0.4s ease;
+  }
+
+  .digital24 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 180px;
+    padding-left: 30px;
+  }
+
+  .digital2 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 161px;
+    padding-left: 30px;
+  }
+
+  .digital3 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 162px;
+    padding-left: 30px;
+  }
+
+  .digital26 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 169px;
+    padding-left: 30px;
+  }
+
+  .digital37 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 177px;
+    padding-left: 30px;
+  }
+
+  #sec13 {
+    background-size: cover;
+    border-top-right-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 320px;
+  }
+
+  #sec131 {
+    background-size: cover;
+    border-top-right-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+}
+
+
+
+.getbtngraphic {
+  border: 1px solid #AFAFAF;
+  color: white;
+  font-weight: bold;
+  border-radius: 100px;
+  background-color: #635280;
+  padding: 06px 18px;
+  float: right;
+  margin-right: 45px;
+  margin-top: -7px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background-position 0.4s ease;
+}
+.getbtngraphic::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+  transition: width 0.4s ease;
+}
+
+.getbtngraphic:hover {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+  /* Gradient colors */
+  transition: width 0.4s ease;
+}
+
+.getbtngraphic:hover::before {
+  width: 0;
+}
+
+.getbtngraphic:hover {
+  background-position: right;
+}
+
+.getbtnapp {
+  border: 1px solid #AFAFAF;
+  color: white;
+  font-weight: bold;
+  border-radius: 100px;
+  background-color: #635280;
+  padding: 06px 18px;
+  float: right;
+  margin-right: 45px;
+  margin-top: -7px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background-position 0.4s ease;
+}
+.getbtnapp::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+  transition: width 0.4s ease;
+}
+
+.getbtnapp:hover {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+  /* Gradient colors */
+  transition: width 0.4s ease;
+}
+
+.getbtnapp:hover::before {
+  width: 0;
+}
+
+.getbtnapp:hover {
+  background-position: right;
+}
+
+
+#digitalback {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 100px) and (max-width: 992px) {
+
+  #sec11 {
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+    background-image: url(./images/digisec1.webp);
+    text-align: center;
+    height: auto;
+
+  }
+
+  .digital1 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 50px;
+    padding-left: 0px;
+    background-blend-mode: multiply;
+  }
+
+  .atp {
+    font-family: 'otterco Display normal';
+    color: white;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+
+  .getbtn {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 0px;
+    margin-top: -58px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 0.4s ease;
+  }
+
+  .btn-cen {
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the button */
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+
+  #sec12 {
+    text-align: center;
+    padding-top: 20px;
+    height: auto;
+    /* border-top-right-radius: 100px; */
+
+    border-bottom-right-radius: 100px;
+
+  }
+
+  .btnsec12 {
+    display: flex;
+
+    justify-content: center;
+    /* Horizontally center the button */
+    align-items: center;
+  }
+
+  .getbtngraphic {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 0px;
+    margin-top: -30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 0.4s ease;
+  }
+
+  .digital2 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 45px;
+    padding-left: 0px;
+  }
+
+  .digital3 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+
+  #sec13 {
+    text-align: center;
+    border-top-right-radius: 100px;
+    height: auto;
+    border-bottom-left-radius: 100px;
+
+
+  }
+
+  .getbtnsec13 {
+    display: flex;
+
+    justify-content: center;
+    /* Horizontally center the button */
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+
+  .getbtnapp {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 0px;
+    margin-top: -66px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 0.4s ease;
+  }
+  .getbtnapp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    transition: width 0.4s ease;
+  }
+  
+  .getbtnapp:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    /* Gradient colors */
+    transition: width 0.4s ease;
+  }
+  
+  .getbtnapp:hover::before {
+    width: 0;
+  }
+  
+  .getbtnapp:hover {
+    background-position: right;
+  }
+
+
+  #sec121 {
+    background-image: url(./images/digisec4.webp);
+    background-size: cover;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 20px;
+    height: auto;
+
+
+
+  }
+
+  .getbtnsec121 {
+    display: flex;
+
+    justify-content: center;
+    /* Horizontally center the button */
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  #getbtnweb {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 0px;
+    margin-top: -54px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 0.4s ease;
+  }
+  #getbtnweb::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    transition: width 0.4s ease;
+  }
+  
+  #getbtnweb:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    /* Gradient colors */
+    transition: width 0.4s ease;
+  }
+  
+  #getbtnweb:hover::before {
+    width: 0;
+  }
+  
+  #getbtnweb:hover {
+    background-position: right;
+  }
+
+  .digital24 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 25px;
+    padding-left: 0px;
+  }
+
+  #sec131 {
+    background-image: url(./images/digisec5.webp);
+    background-size: cover;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+    text-align: center;
+
+
+
+  }
+
+  .getbtn131 {
+    display: flex;
+
+    justify-content: center;
+    /* Horizontally center the button */
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  #getbtnui {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 0px;
+    margin-top: -55px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 0.4s ease;
+  }
+
+
+  #sec122 {
+    background-image: url(./images/digisec6.webp);
+    background-size: cover;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+
+    text-align: center;
+    height: auto;
+
+  }
+
+  .getbtnsec122 {
+    display: flex;
+
+    justify-content: center;
+    /* Horizontally center the button */
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+
+  .getbtn2 {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 0px;
+    margin-top: -58px;
+    position: relative; /* Added for positioning pseudo-element */
+    overflow: hidden; /* Added to hide overflow of pseudo-element */
+  }
+  .getbtn2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    transition: width 0.4s ease;
+  }
+  
+  .getbtn2:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    /* Gradient colors */
+    transition: width 0.4s ease;
+  }
+  
+  .getbtn2:hover::before {
+    width: 0;
+  }
+  
+  .getbtn2:hover {
+    background-position: right;
+  }
+  
+  
+  
+  
+  .digital26 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+
+  #sec132 {
+    background-image: url(./images/digisec7.webp);
+    background-size: cover;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+    text-align: center;
+    height: auto;
+
+  }
+
+  .digital37 {
+    max-width: 100%;
+    width: 322px;
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+
+  .getbtnsec132 {
+    display: flex;
+
+    justify-content: center;
+    /* Horizontally center the button */
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .getbtn1 {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 0px;
+    margin-top: -51px;
+    position: relative; /* Added for positioning pseudo-element */
+    overflow: hidden; /* Added to hide overflow of pseudo-element */
+  }
+  .getbtn1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    transition: width 0.4s ease;
+  }
+  
+  .getbtn1:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    /* Gradient colors */
+    transition: width 0.4s ease;
+  }
+  
+  .getbtn1:hover::before {
+    width: 0;
+  }
+  
+  .getbtn1:hover {
+    background-position: right;
+  }
+
+
+  .getbtngraphic {
+    border: 1px solid #AFAFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #635280;
+    padding: 06px 18px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 0.4s ease;
+  }
+}
+
+.gape-img,
+.gape-img2,
+.gape-img3 {
+  transition: all 0.5s;
+
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 556px) {
+
+
+  .h1digit {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    font-family: 'Nova Klasse';
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+}
+
+
+.sec {
+  height: 800px;
+  /* Height of the section */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h {
+  position: relative;
+  right: -100%;
+  /* Start the heading off-screen to the right */
+  transition: right 1s ease;
+  /* Smooth transition for the animation */
+}
+
+
+/* ========================     Footer  ============================== */
+
+@media screen and (min-width: 100px) and (max-width: 768px) {
+
+
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .horizontal-links {
+    display: flex;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+  }
+}
+
+
+
+@media screen and (min-width: 100px) and (max-width: 556px) {
+
+  .h1footer {
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, white 10%, #7713DB 40%, white 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+  }
+
+  #footerback {
+    /* background-image: url(http://localhost:3000/static/media/footerback.f20ef8b….png); */
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    justify-content: start;
+  }
+
+  .horizontal-links {
+
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    display: grid;
+  }
+
+  .enter {
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'otterco Display';
+  }
+
+  .horizontal-links a {
+    margin-right: 60px;
+    color: white;
+    text-decoration: none;
+    font-family: 'otterco Display';
+    margin-top: 7px;
+  }
+}
+
+
+
+
+.getbtngraphic {
+  border: 1px solid #AFAFAF;
+  color: white;
+  font-weight: bold;
+  border-radius: 100px;
+  background-color: #635280;
+  padding: 06px 18px;
+  float: right;
+  margin-right: 45px;
+  margin-top: -30pxpx;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background-position 0.4s ease;
+}
+
+
+
+@media screen and (min-width: 100px) and (max-width: 556px) {
+
+  .digital1 {
+    max-width: 100%;
+    width: 240px;
+    padding-top: 50px;
+    padding-left: 0px;
+    background-blend-mode: multiply;
+  }
+
+  .digital2 {
+    max-width: 100%;
+    width: 240px;
+    padding-top: 45px;
+    padding-left: 0px;
+  }
+
+  .digital3 {
+    max-width: 100%;
+    width: 240px;
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+
+  .digital24 {
+    max-width: 100%;
+    width: 240px;
+    padding-top: 25px;
+    padding-left: 0px;
+  }
+
+  .digital26 {
+    max-width: 100%;
+    width: 240px;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+
+  .digital37 {
+    max-width: 100%;
+    width: 240px;
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+
+  #digitalback {
+    /* background-image: url(http://localhost:3000/static/media/digitalback.58d76e3….png); */
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-blend-mode: multiply;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #sec121 {
+    /* background-image: url(http://localhost:3000/static/media/digisec4.12e1d1d….png); */
+    background-size: cover;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 20px;
+    height: auto;
+  }
+
+  #sec122 {
+    /* background-image: url(http://localhost:3000/static/media/digisec6.dc207ff….png); */
+    background-size: cover;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    height: auto;
+  }
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .inthe {
+    font-family: 'otterco Display';
+    color: white;
+    text-align: center;
+    font-size: 39px;
+    line-height: 1.1;
+    position: relative;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .inthe {
+    font-family: 'otterco Display';
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.1;
+    position: relative;
+  }
+
+
+  .h1about {
+    color: #531391;
+    font-family: 'Nova Klasse';
+    font-size: 150px;
+    font-weight: bold;
+    /* margin-left: -900px; */
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #531391;
+    position: relative;
+    text-align: center;
+  }
+
+}
+
+
+
+@media screen and (min-width: 556px) and (max-width: 768px) {
+  .inthe {
+    font-family: 'otterco Display';
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.1;
+    position: relative;
+  }
+
+
+  .h1about {
+    color: #531391;
+    font-family: 'Nova Klasse';
+    font-size: 114px;
+    font-weight: bold;
+    /* margin-left: -900px; */
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #531391;
+    position: relative;
+    text-align: center;
+  }
+
+  .aboutwork {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+    border-radius: 40px;
+    border: 1px solid #531391;
+    background-color: rgba(53, 25, 85, 0.3);
+    padding: 30px 22px;
+    margin-top: -411px;
+    margin-bottom: 100px;
+  }
+
+
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 556px) {
+
+
+  #section2 {
+    display: none;
+
+  }
+
+  #section2mobile {
+
+    background-image: url(./images/aboutback.png);
+    background-size: cover;
+    margin-top: 0px;
+    overflow: hidden;
+
+  }
+
+  .h1about {
+    color: #531391;
+    font-family: 'Nova Klasse';
+    font-size: 56px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #531391;
+    position: relative;
+    text-align: center;
+  }
+
+  .aboutwork {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+    border-radius: 40px;
+    border: 1px solid #531391;
+    background-color: rgba(53, 25, 85, 0.3);
+    padding: 30px 22px;
+    margin-bottom: 70px;
+  }
+
+  .inthe {
+    font-family: 'otterco Display';
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.1;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 556px) and (max-width: 2000px) {
+
+  #section2mobile {
+    display: none;
+
+  }
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 776px) and (max-width: 992px) {
+
+.testimonial-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  justify-content: center;
+  flex-direction: column;
+}
+.testimonial-container {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 91px;
+}
+.testimonial-container {
+  width: 100%;
+  max-width: 470px;
+  padding: 30px;
+  border-radius: 50px;
+  background-color: #641ed6;
+  color: #9f74e2;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+#mar-jack {
+  margin-top: 0px; 
+ margin-bottom: 0px;
+}
+#mobile-reviews{
+  text-align: -webkit-center;
+
+}
+.testimonial-heading {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 28px;
+  /* font-weight: bold; */
+  font-family: 'Nova Klasse';
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: start;
+}
+.testimonial-text {
+  font-size: 15px;
+  line-height: 1.1;
+  padding-left: 0px;
+  text-align: start;
+}
+.testimonial-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.h1reviews-laptop {
+  font-family: 'Nova Klasse';
+  font-size: 102px;
+  font-weight: bold;
+ 
+  background: linear-gradient(to right, white 10%, #7713DB 40%, white 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+margin-top: 100px;
+margin-bottom: 100px; 
+
+}
+}
+
+
+@media screen and (min-width: 556px) and (max-width: 776px) {
+
+  .testimonial-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .testimonial-container {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 91px;
+  }
+  .testimonial-container {
+    width: 100%;
+    max-width: 470px;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: #641ed6;
+    color: #9f74e2;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  #mar-jack {
+    margin-top: 0px; 
+   margin-bottom: 0px;
+  }
+  #mobile-reviews{
+    text-align: -webkit-center;
+  
+  }
+  .testimonial-heading {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 28px;
+    /* font-weight: bold; */
+    font-family: 'Nova Klasse';
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: start;
+  }
+  .testimonial-text {
+    font-size: 15px;
+    line-height: 1.1;
+    padding-left: 0px;
+    text-align: start;
+  }
+  .testimonial-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  
+  .h1reviews-laptop {
+    font-family: 'Nova Klasse';
+    font-size: 80px;
+    font-weight: bold;
+   
+    background: linear-gradient(to right, white 10%, #7713DB 40%, white 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px; 
+  
+  }
+  }
+
+
+  
+@media screen and (min-width: 100px) and (max-width: 556px) {
+
+  .testimonial-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .testimonial-container {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 91px;
+  }
+  .testimonial-container {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50px;
+    background-color: #641ed6;
+    color: #9f74e2;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #mar-jack {
+    margin-top: 0px; 
+   margin-bottom: 0px;
+  }
+  #mobile-reviews{
+    text-align: -webkit-center;
+  
+  }
+  .testimonial-heading {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    /* font-weight: bold; */
+    font-family: 'Nova Klasse';
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .stars-container {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+  .testimonial-text {
+    font-size: 15px;
+    line-height: 1.1;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .testimonial-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  
+  .h1reviews-laptop {
+    font-family: 'Nova Klasse';
+    font-size: 40px;
+    font-weight: bold;
+   
+    background: linear-gradient(to right, white 10%, #7713DB 40%, white 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px; 
+  
+  }
+  .testimonial-content {
+    display: block;
+    margin-bottom: 10px;
+}
+  }
+
+
+@media screen and (min-width: 992px) and (max-width: 2500px) {
+
+.laptop-devices{
+  display: none;
+}
+}
+
+@media screen and (min-width: 50px) and (max-width: 992px) {
+.desktop-screen{
+  display: none;
+}
+}
+
+@media screen and (min-width: 50px) and (max-width: 556px) {
+
+#logo{
+  position: relative;
+  z-index: 2;
+  width: 100px;
+  margin-top: 12px;
+}
+
+}
