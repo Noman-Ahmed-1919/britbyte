@@ -47,7 +47,7 @@ function App() {
 
         </div>
         <div>
-          {/* <Newsletter /> */}
+          <Newsletter />
         </div>
         <Footer />
 
