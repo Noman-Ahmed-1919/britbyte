@@ -1,9 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import newsimg1 from "../images/newsback.png"
 
 
 const Newsletter = () => {
 
+    const [imageTransform, setImageTransform] = useState('scale(1)'); // State variable for transform
+
+   
+    useEffect(() => {
+        const handleScroll = () => {
+            const section = document.getElementById('newsmain');
+            const image = document.querySelector('.newsimg1');
+            if (section && image) {
+                const rect = section.getBoundingClientRect();
+                console.log(rect);
+
+                if (rect.top < window.innerHeight && rect.bottom >= 0) {
+                    setImageTransform('scale(0-6)');
+                } else {
+                    setImageTransform('scale(1)');
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     return (
         <>
