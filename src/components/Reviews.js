@@ -100,10 +100,10 @@ const Reviews = () => {
 
     }, []);
 
-    // useEffect(() => {
-    //     pract()
+    useEffect(() => {
+        pract()
 
-    // }, [])
+    }, [])
 
     return (
         <>
