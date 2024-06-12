@@ -929,8 +929,9 @@ header.scrolled {
   /* This will maintain the aspect ratio */
   max-width: 100%;
   padding-left: 20px;
-}
+  transition: transform 0.8s ease; 
 
+}
 
 
 #newsmain {

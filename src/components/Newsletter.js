@@ -15,10 +15,10 @@ const Newsletter = () => {
                 const rect = section.getBoundingClientRect();
                 console.log(rect);
 
-                if (rect.top < window.innerHeight && rect.bottom >= 0) {
-                    setImageTransform('scale(0-6)');
-                } else {
+                if (rect.top >= 0) {
                     setImageTransform('scale(1)');
+                } else {
+                    setImageTransform('scale(0.8)');
                 }
             }
         };
@@ -41,7 +41,7 @@ const Newsletter = () => {
 
                             <div className='parent-newsimage'>
                                 <div>
-                                    <img className="newsimg1" src={newsimg1} alt="" />
+                                    <img className="newsimg1" src={newsimg1} alt="" style={{ transform: imageTransform }} />
 
                                 </div>
 
