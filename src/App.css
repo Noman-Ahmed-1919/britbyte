@@ -918,7 +918,15 @@ header.scrolled {
 
 }
 
+.nav-item{
+  position: relative;
+  z-index: 2;
+}
 
+.nav-link{
+  position: relative;
+  z-index: 2;
+}
 
 
 
