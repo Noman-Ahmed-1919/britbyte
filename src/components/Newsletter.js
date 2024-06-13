@@ -6,19 +6,20 @@ const Newsletter = () => {
 
     const [imageTransform, setImageTransform] = useState('scale(1)'); // State variable for transform
 
-   
     useEffect(() => {
         const handleScroll = () => {
+
             const section = document.getElementById('newsmain');
             const image = document.querySelector('.newsimg1');
             if (section && image) {
                 const rect = section.getBoundingClientRect();
-                console.log(rect);
+                const windowHeight = window.innerHeight;
 
-                if (rect.top >= 0) {
+                if (rect.top > 0) {
                     setImageTransform('scale(1)');
                 } else {
-                    setImageTransform('scale(0.8)');
+                    const scaleFactor = Math.max(0.8, 1 + rect.top / windowHeight);
+                    setImageTransform(`scale(${scaleFactor})`);
                 }
             }
         };
@@ -28,7 +29,6 @@ const Newsletter = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
     return (
         <>
 
