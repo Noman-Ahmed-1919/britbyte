@@ -39,11 +39,12 @@ function App() {
         <Brands />
 
         <div>
-        <Reviews />
+        <Digital />
 
         </div>
         <div>
-          <Digital />
+          <Reviews />
+
 
         </div>
         <div>
