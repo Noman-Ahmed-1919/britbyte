@@ -362,13 +362,14 @@ header.scrolled {
 #brandsec1 {
   background-image: url(./images/back1.png);
   background-size: cover;
+  margin-top: -180px;
 }
 
 .h1brand {
   font-family: 'Nova Klasse';
 
   color: white;
-  margin-top: 50px;
+  margin-top: -40px;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -922,6 +923,274 @@ header.scrolled {
 
 }
 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .h1newsletter {
+
+ 
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 65px;
+    margin-bottom: 40px;
+  
+  
+  }
+
+  .email-input {
+    border: none;
+    padding: 42px 20px;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    width: 600px !important;
+    line-height: 42px; 
+    /* Adjust to match the placeholder font-size */
+  
+  
+  }
+
+  .subscribe-btn {
+    font-family: 'Nova Klasse';
+    color: #23003C;
+    position: absolute;
+    top: 26px !important;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 22px 43px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 19px !important;
+}
+
+#custom-input::placeholder {
+  color: #1C0034;
+  font-size: 36px !important;
+  font-family: 'otterco Display';
+  font-weight: bold;
+  line-height: 22px; /* Adjust to center the placeholder text vertically */
+
+
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  .h1newsletter {
+
+ 
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 52px;
+    margin-bottom: 40px;
+  
+  
+  }
+
+  .email-input {
+    border: none;
+    padding: 28px 20px !important;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    width: 475px !important;
+    line-height: 42px; 
+    /* Adjust to match the placeholder font-size */
+  
+  
+  }
+
+  .subscribe-btn {
+    font-family: 'Nova Klasse';
+    color: #23003C;
+    position: absolute;
+    top: 16px !important;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 22px 43px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 14px !important;
+}
+
+#custom-input::placeholder {
+  color: #1C0034;
+  font-size: 30px !important;
+  font-family: 'otterco Display';
+  font-weight: bold;
+  line-height: 22px; /* Adjust to center the placeholder text vertically */
+
+
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+  .h1newsletter {
+
+ 
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+    margin-bottom: 20px;
+  
+  
+  }
+
+  .email-input {
+    border: none;
+    padding: 22px 20px !important;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    width: 385px !important;
+    line-height: 42px; 
+    /* Adjust to match the placeholder font-size */
+  
+  
+  }
+
+  .subscribe-btn {
+    font-family: 'Nova Klasse';
+    color: #23003C;
+    position: absolute;
+    top: 16px !important;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 16px 26px !important;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 14px !important;
+}
+
+#custom-input::placeholder {
+  color: #1C0034;
+  font-size: 23px !important;
+  font-family: 'otterco Display';
+  font-weight: bold;
+  line-height: 22px; /* Adjust to center the placeholder text vertically */
+
+
+}
+}
+
+
+@media screen and (min-width: 50px) and (max-width: 600px) {
+
+  
+  #newsmain {
+    background-color: #240031;
+    display: none;
+  
+  }
+
+  .h1newsletter {
+
+ 
+    text-align: center;
+    color: white;
+    font-family: 'Nova Klasse', sans-serif;
+    background: linear-gradient(to right, black 10%, #7713DB 40%, black 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  
+  
+  }
+
+  .email-input {
+    border: none;
+    padding: 12px 20px !important;
+    background: linear-gradient(to right, #B78DDA 10%, #B78DDA 40%, black 90%);
+    color: #1C0034;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    width: 266px !important;
+    line-height: 42px; 
+    /* Adjust to match the placeholder font-size */
+  
+  
+  }
+
+  .subscribe-btn {
+    font-family: 'Nova Klasse';
+    color: #23003C;
+    position: absolute;
+    top: 14px !important;
+    right: 17px;
+    border: none;
+    border-radius: 43px;
+    padding: 9px 13px !important;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 12px !important;
+}
+
+#custom-input::placeholder {
+  color: #1C0034;
+  font-size: 14px !important;
+  font-family: 'otterco Display';
+  font-weight: bold;
+  line-height: 22px; /* Adjust to center the placeholder text vertically */
+
+
+}
+.newsimg1 {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 10px !important;
+  /* transition: transform 0.8s ease; */
+  height: 240px !important;
+}
+
+.parent-newsimage {
+  position: relative;
+  margin-top: 70px !important;
+  margin-bottom: 50px !important;
+}
+
+    }
+  
+    
+  @media screen and (min-width: 600px) and (max-width: 3000px) {
+  
+    #newsmainmobile {
+      background-color: #240031;
+      display: none;
+    
+    }
+   
+    
+    }
+  
+
+
+
+
 .nav-item{
   position: relative;
   z-index: 2;
@@ -937,7 +1206,7 @@ header.scrolled {
 .newsimg1 {
 
   width: 100%;
-  height: auto;
+  height: 100%;
   /* This will maintain the aspect ratio */
   max-width: 100%;
   padding-left: 20px;
@@ -947,6 +1216,11 @@ header.scrolled {
 
 
 #newsmain {
+  background-color: #240031;
+  
+
+}
+#newsmainmobile {
   background-color: #240031;
   
 
@@ -3060,6 +3334,14 @@ height: 100%;
 
   }
 
+  .h1brand {
+    font-family: 'Nova Klasse';
+    color: white;
+    margin-top: -57px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
   #section2mobile {
 
     background-image: url(./images/aboutback.png);
@@ -3110,9 +3392,6 @@ height: 100%;
     display: none;
 
   }
-
-
-
 
 
 

@@ -78,6 +78,53 @@ const Newsletter = () => {
 
             </div>
 
+
+            <div id='newsmainmobile'>
+
+<div className='container-fluid'>
+    <div className='row'>
+        <div className='col-12'>
+
+
+            <div className='parent-newsimage'>
+                <div>
+                    <img className="newsimg1" src={newsimg1} alt="" style={{ transform: imageTransform }} />
+
+                </div>
+
+                <div className='child-image'>
+                    <h1 className='h1newsletter'>NEWSLETTER</h1>
+
+                    <div className="newsletter-form">
+                        <div className="input-container">
+
+                            <input
+                                type="email"
+                                placeholder="enter your email"
+                                className="email-input"
+                                style={{ color: "#1C0034" }}
+                                id="custom-input"
+                            />
+                            <button className="subscribe-btn">Subscribe</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
         </>
     )
 }

@@ -2,6 +2,8 @@ import React, { useRef, useEffect } from "react";
 import { useLocation } from 'react-router-dom';
 
 import { animate } from '../assets/js/animate';
+import gradient from "../images/gradient.png"
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -49,7 +51,38 @@ const About = () => {
                 </div>
 
 
+                <img src={gradient} alt="star" className="gradient" />
+
+
             </div>
+
+
+
+            <div id="section2mobile" className=''>
+
+<div className="container-fluid" id="about">
+    <div className="row">
+        <div className="col-12" id='auto'>
+
+            <h1 className="h1about">ABOUT</h1>
+
+
+            <div className='aboutwork'>
+                <p className='inthe'>In the fast paced world of digital marketing staying ahead requires not only adaptability but also a deep understanding of the unique needs of each brand. ByteBrit was founded with a vision to bridge the gap between business and their digitalpotential.Our story is one of continuous growth, innovation, and a story is one of continuous growth, innovation, and a relentless pursuit of excellence.</p>
+            </div>
+
+
+
+        </div>
+
+    </div>
+</div>
+
+
+<img src={gradient} alt="star" className="gradient" />
+
+
+</div>
 
 
 
