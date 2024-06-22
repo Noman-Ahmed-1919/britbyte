@@ -1,10 +1,39 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
+import axios from "axios";
+import { toast } from "react-toastify";
+
 const Footer = () => {
+
+
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+
+
+
+
+// function of sending email data
+const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("Form submitted with email:", email, "and message:", message);
+
+
+    try {
+        const res = await axios.post("http://localhost:5000/email-data", { email, message });
+        console.log(res);
+    } catch (error) {
+      console.log(error);
+      toast.error("Something Went Wrong in Input Form");
+    }
+  };
+
+
+
     return (
         <>
 
@@ -68,24 +97,34 @@ const Footer = () => {
 
                         </div>
 
-                        <div className="col-md-4">
-                            {/* <p className="enter">Enter your email...</p> */}
-                            <input className="enter" placeholder="Enter your email..."></input>
+                            <div className="col-md-4">
+                            <form  onSubmit={handleSubmit} >
 
-                            <div className="message-box">
-                                <textarea
-                                    className="message-input"
-                                    placeholder="Message"
-                                ></textarea>
-                                <div className="sendbutton-main">
-                                <button className="sendbutton">SEND</button>
-                                <span className="right-arrow">&#10140;</span>
+                                <input className="enter"  placeholder="Enter your email..."
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                                ></input>
+
+                                <div className="message-box" name="message">
+                                    <textarea
+                                        className="message-input"
+                                        placeholder="Message"
+                                        value={message}
+                                        onChange={(e) => setMessage(e.target.value)}
+                                    ></textarea>
+
+                                    <div className="sendbutton-main">
+                                        <button type="submit" className="sendbutton">SEND</button>
+                                        <span className="right-arrow">&#10140;</span>
+                                    </div>
+
+
                                 </div>
-                              
+                                </form>
 
                             </div>
 
-                        </div>
+
 
 
 
@@ -100,7 +139,7 @@ const Footer = () => {
                         <div className="col-12">
 
                             <div className="horizontal-links">
-                            <Link to="/">home</Link>
+                                <Link to="/">home</Link>
 
                                 {/* <a href="#home" >home</a> */}
                                 <a href="#about">about</a>
