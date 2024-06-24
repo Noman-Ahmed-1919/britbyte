@@ -24,23 +24,25 @@ app.post("/email-data", async (req, res) => {
     const { email, message } = req.body;
     console.log("Received data:", { email, message });
 
+
     // Perform any operations with the received data here
 
     let transporter = nodemailer.createTransport(({
         service: "gmail",
         "auth": {
-            user: "nomanahmed1919@gmail.com",
-            pass: ""// password dalo
+            user: "alanwalters@bytebrit.io",
+            pass: "pzpp ksat uokl fmjl"// password dalo
 
         },
     }));
 
 
 let mailOptions = {
-  from: "nomanahmed1919@gmail.com",
-  to: "req.body.email",
-  cc: "nomanahmed1919@gmail.com",
+  from: "alanwalters@bytebrit.io",
+  to: req.body.email,
+  cc: "alanwalters@bytebrit.io",
   subject: "Welcome to bytebrit",
+  text: req.body.message,
 
 };
 

@@ -3677,3 +3677,229 @@ margin-bottom: 100px;
   }
 
 }
+
+
+
+/* ============================= START WHATSAPP CSS =============================================== */
+
+
+
+
+.whatsapp {
+  border: aqua;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  width: 60px;
+}
+.whatappset{
+  position: fixed;
+  bottom: 10px;
+
+  right: 25px;
+}
+@media screen and (max-width: 390px) and (min-width: 100px){
+  .whatsapp {
+    border: aqua !important;
+    position: fixed !important;
+    bottom: 40px !important;
+    right: 20px !important;
+    width: 60px !important;
+  }
+  
+
+  #scrollToTop{
+    /* background: linear-gradient(110deg, #5C0CEC 0%, #1FCBFF 100%); */
+            color: white;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: fixed;
+            right: 35px;
+            bottom: 20px;
+            /* opacity: 0; */
+            font-size: 20px;
+            display: none;
+            transition: all 0.3s;
+            z-index: 1000;
+  }
+  #scrollToTop:focus{
+    outline: none;
+  }
+  #scrollToTop:active{
+    background-color: white;
+  }
+  #scrollToTop:hover{
+    box-shadow: 0px 6px 18px -5px black;
+  }
+  #scrollToTop::before {
+    content: "";
+    border: 3px solid green;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    animation: zoomBig 2s linear infinite;
+    -webkit-animation-delay: .85s;
+    animation-delay: .85s;
+  }
+  @keyframes zoomBig {
+    0%{
+        width: 55px;
+        height: 55px;
+        opacity: 1;
+    }
+    50%{
+        width: 70px;
+        height: 70px;
+        opacity: 0.8;
+    }
+    100%{
+        width: 85px;
+        height: 85px;
+        opacity: 0;
+    }
+  }
+  #scrollToTop::after {
+    content: "";
+    border: 3px solid green;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    animation: zoomBig1 2s linear infinite;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  @keyframes zoomBig1 {
+    0%{
+        width: 55px;
+        height: 55px;
+        opacity: 1;
+    }
+    50%{
+        width: 70px;
+        height: 70px;
+        opacity: 0.8;
+    }
+    100%{
+        width: 85px;
+        height: 85px;
+        opacity: 0;
+    }
+  }
+  
+
+
+
+}
+
+
+
+#scrollToTop{
+  /* background: linear-gradient(110deg, #5C0CEC 0%, #1FCBFF 100%); */
+          color: white;
+          border: none;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          position: fixed;
+          right: 35px;
+          bottom: 20px;
+          /* opacity: 0; */
+          font-size: 20px;
+          display: none;
+          transition: all 0.3s;
+          z-index: 1000;
+}
+#scrollToTop:focus{
+  outline: none;
+}
+#scrollToTop:active{
+  background-color: white;
+}
+#scrollToTop:hover{
+  box-shadow: 0px 6px 18px -5px black;
+}
+#scrollToTop::before {
+  content: "";
+  border: 3px solid #7312D5;
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  animation: zoomBig 2s linear infinite;
+  -webkit-animation-delay: .85s;
+  animation-delay: .85s;
+}
+@keyframes zoomBig {
+  0%{
+      width: 55px;
+      height: 55px;
+      opacity: 1;
+  }
+  50%{
+      width: 70px;
+      height: 70px;
+      opacity: 0.8;
+  }
+  100%{
+      width: 85px;
+      height: 85px;
+      opacity: 0;
+  }
+}
+#scrollToTop::after {
+  content: "";
+  border: 3px solid #7312D5;
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  animation: zoomBig1 2s linear infinite;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+@keyframes zoomBig1 {
+  0%{
+      width: 55px;
+      height: 55px;
+      opacity: 1;
+  }
+  50%{
+      width: 70px;
+      height: 70px;
+      opacity: 0.8;
+  }
+  100%{
+      width: 85px;
+      height: 85px;
+      opacity: 0;
+  }
+}
+
+
+
+
+/* =========================== END WHATSAPP CSS ====================================================== */

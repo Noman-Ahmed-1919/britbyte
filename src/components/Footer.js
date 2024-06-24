@@ -6,9 +6,11 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 import axios from "axios";
 import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
 
+    const navigate = useNavigate();
 
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
@@ -26,6 +28,8 @@ const handleSubmit = async (e) => {
     try {
         const res = await axios.post("http://localhost:5000/email-data", { email, message });
         console.log(res);
+        window.location.reload(); // This will refresh the page
+
     } catch (error) {
       console.log(error);
       toast.error("Something Went Wrong in Input Form");
@@ -123,11 +127,6 @@ const handleSubmit = async (e) => {
                                 </form>
 
                             </div>
-
-
-
-
-
                     </div>
 
                 </div>
