@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Header from "./Header";
-import Brands from './Brands';
 
 import Marquee from 'react-fast-marquee';
+import Work from './Work';
 
 
 
@@ -74,9 +74,8 @@ const Home = () => {
             </div>
 
 
+<Work/>
 
-            {/* <Work /> */}
-    
 
 
         </>

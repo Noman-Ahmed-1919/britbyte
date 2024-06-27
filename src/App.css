@@ -1471,49 +1471,73 @@ height: 100%;
   font-weight: bold;
   color: white;
   text-align: center;
-  transition: position 0.3s ease, opacity 0.3s ease;
 
-  padding-bottom: 50px;
 }
 
 .h2project {
   color: white;
   font-size: 100px;
-  margin-left: 101%;
-  /* Move off-screen to the right */
-  margin-top: 280px;
-
-  position: fixed;
-  top: 10px;
+  position: relative;
+  top: -450px;
+  /* Add position property */
+  z-index: 2;
+  /* Set a lower z-index value */
 }
 
 .h2project1 {
   color: white;
   font-size: 100px;
-  margin-left: 101%;
-  /* Move off-screen to the right */
-  margin-top: 440px;
+  position: relative;
+  /* Add position property */
+  z-index: 2;
+  position: relative;
+  top: -350px;
 
-  position: fixed;
-  top: 10px;
+}
+
+.h2project2 {
+  color: white;
+  font-size: 100px;
+  position: relative;
+  top: -350px;
+  /* Add position property */
+  z-index: 2;
+
+
 }
 
 .h3tenup {
   color: white;
-  margin-left: 25%;
-  margin-top: 300px;
-  position: fixed;
-  top: 10px;
-  visibility: hidden;
-  /* Initially hide the element */
+  position: relative;
+  /* Add position property */
   z-index: 2;
+  /* Set a lower z-index value */
+  position: relative;
+  top: -450px;
 
 }
 
-.h3tenup.visible {
-  visibility: visible;
-  /* Show the element when needed */
+.h3tenup1 {
+  color: white;
+  position: relative;
+  /* Add position property */
+  z-index: 2;
+  /* Set a lower z-index value */
+  position: relative;
+  top: -350px;
+
 }
+.h3tenup2 {
+  color: white;
+  position: relative;
+  /* Add position property */
+  z-index: 2;
+  /* Set a lower z-index value */
+  position: relative;
+  top: -350px;
+
+}
+
 
 .workimg1 {
   width: 500px;
@@ -1524,8 +1548,22 @@ height: 100%;
 
 }
 
+
+
+.h1work.fixed {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  z-index: 1000;
+}
+
+#work-main {
+  position: relative;
+}
 #gape-img {
-  padding-top: 480px;
+  padding-top: 500px;
 }
 
 #gape-img2 {
