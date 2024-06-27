@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, } from 'react';
 
 import workimg1 from "../images/tenup.png"
 import workimg2 from "../images/lamson.png"
@@ -22,28 +22,22 @@ const Work = () => {
             const workHeading = workHeadingRef.current;
             const workSection = document.getElementById('work-main');
             
-            // const sectionOffset = workSection.offsetTop;
-            // const sectionHeight = workSection.offsetHeight;
-            // const scrollPosition = window.scrollY;
-
-            // const hideTrigger = sectionOffset + sectionHeight -300;
-      
-            // if (scrollPosition >= sectionOffset && scrollPosition <= hideTrigger) {
-            //   workHeading.classList.add('fixed');
-            // } else {
-            //   workHeading.classList.remove('fixed');
-            // }
-
-            if (!workHeading || !workSection) return;
-
             const sectionOffset = workSection.offsetTop;
+            const sectionHeight = workSection.offsetHeight;
             const scrollPosition = window.scrollY;
-            const hideTrigger = sectionOffset + workSection.offsetHeight - 200;
-        
-            // Toggle the 'fixed' class based on scroll position
-            workHeading.classList.toggle('fixed', scrollPosition >= sectionOffset && scrollPosition <= hideTrigger);
+
+            const hideTrigger = sectionOffset + sectionHeight -500;
+      
+            if (scrollPosition >= sectionOffset && scrollPosition <= hideTrigger) {
+              workHeading.classList.add('fixed');
+            } else {
+              workHeading.classList.remove('fixed');
+            }
+
         };
 
+
+          
           
 
         const changeBgcolorScroll = () => {
@@ -95,6 +89,9 @@ const Work = () => {
                         <div className="col-12">
                             <h1 className="h1work" ref={workHeadingRef} >WORK</h1>
 
+
+
+                            
 
 
                             <div id='gape-img' className='frame10'>
