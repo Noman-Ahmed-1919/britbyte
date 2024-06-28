@@ -62,7 +62,7 @@ const Home = () => {
                                 </div>
 
 
-                                <p className='guide' >We guide game-changing Tech, AI & Commerce <br></br> Brands, across platforms & places,<br></br> through agile design & digital experience.
+                                <p className='guide' >We guide game&ndash;changing Tech, AI & Commerce <br></br> Brands, across platforms & places,<br></br> through agile design & digital experience.
                                 </p>
 
 

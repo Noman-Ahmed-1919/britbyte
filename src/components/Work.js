@@ -11,33 +11,40 @@ import { workheading } from '../assets/js/workheading';
 const Work = () => {
 
    
-    const workHeadingRef = useRef(null);
 
     useEffect(() => {
         
-       
+        let lastKnownScrollPosition = 20;
+        let ticking = false;
 
-
-        const handleScroll = () => {
-            const workHeading = workHeadingRef.current;
+        const smoothScroll = (scrollPosition) => {
+            const workHeading = document.getElementById('h1work');
             const workSection = document.getElementById('work-main');
             
             const sectionOffset = workSection.offsetTop;
             const sectionHeight = workSection.offsetHeight;
-            const scrollPosition = window.scrollY;
+            const hideTrigger = sectionOffset + sectionHeight - 500;
 
-            const hideTrigger = sectionOffset + sectionHeight -500;
-      
-            if (scrollPosition >= sectionOffset && scrollPosition <= hideTrigger) {
-              workHeading.classList.add('fixed');
+            if (scrollPosition > sectionOffset && scrollPosition <= hideTrigger) {
+                workHeading.classList.add('fixed');
             } else {
-              workHeading.classList.remove('fixed');
+                workHeading.classList.remove('fixed');
             }
-
         };
 
 
-          
+        const handleScroll = () => {
+            lastKnownScrollPosition = window.scrollY;
+
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    smoothScroll(lastKnownScrollPosition);
+                    ticking = false;
+                });
+
+                ticking = true;
+            }
+        };
           
 
         const changeBgcolorScroll = () => {
@@ -45,6 +52,7 @@ const Work = () => {
             let elem2 = document.getElementById('gape-img2');
             let elem3 = document.getElementById('gape-img3');
             let sect = document.getElementById('work-main');
+
             if (elementIsVisibleInViewport(elem, true)) {
                 sect.style.background = "linear-gradient(#7200CC, #2EB5F0)";
             } else if (elementIsVisibleInViewport(elem2, true)) {
@@ -87,11 +95,7 @@ const Work = () => {
                 <div className="container" >
                     <div className="row">
                         <div className="col-12">
-                            <h1 className="h1work" ref={workHeadingRef} >WORK</h1>
-
-
-
-                            
+                            <h1 id="h1work" className="h1work">WORK</h1>
 
 
                             <div id='gape-img' className='frame10'>
@@ -116,10 +120,8 @@ const Work = () => {
 
                                 <img src={workimg2} alt="star" className="workimg1" />
 
-                                <div className='frame22'>
                                     <h2 className="h2project1 frame11" >LAMSON</h2>
                                     <h3 className="h3tenup1 frame11" >UIUX Design, <br></br> Branding Visual Design,<br></br> Web Development</h3>
-                                </div>
 
 
                             </div>
