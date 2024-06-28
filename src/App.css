@@ -1481,7 +1481,7 @@ height: 100%;
   color: white;
   font-size: 100px;
   position: relative;
-  top: -450px;
+  top: -350px;
   /* Add position property */
   z-index: 2;
   /* Set a lower z-index value */
@@ -1490,7 +1490,6 @@ height: 100%;
 .h2project1 {
   color: white;
   font-size: 100px;
-  position: relative;
   /* Add position property */
   z-index: 2;
   position: relative;
@@ -1516,7 +1515,7 @@ height: 100%;
   z-index: 2;
   /* Set a lower z-index value */
   position: relative;
-  top: -450px;
+  top: -350px;
 
 }
 
@@ -1559,14 +1558,11 @@ height: 100%;
   left: 50%;
   transform: translateX(-50%);
   opacity: 1;
-  z-index: 1000;
 }
 
-#work-main {
-  position: relative;
-}
+
 #gape-img {
-  padding-top: 740px;
+  padding-top: 290px;
 }
 
 #gape-img2 {
@@ -3055,12 +3051,12 @@ height: 100%;
   }
 }
 
-.gape-img,
+/* .gape-img,
 .gape-img2,
 .gape-img3 {
   transition: all 0.5s;
 
-}
+} */
 
 
 @media screen and (min-width: 100px) and (max-width: 556px) {
