@@ -2712,21 +2712,7 @@ height: 100%;
     align-items: center;
   }
 
-  .getbtngraphic {
-    border: 1px solid #AFAFAF;
-    color: white;
-    font-weight: bold;
-    border-radius: 100px;
-    background-color: #635280;
-    padding: 06px 18px;
-    float: right;
-    margin-right: 0px;
-    margin-top: -30px;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: background-position 0.4s ease;
-  }
+ 
 
   .digital2 {
     max-width: 100%;
@@ -3057,7 +3043,7 @@ height: 100%;
     padding: 06px 18px;
     float: right;
     margin-right: 45px;
-    margin-top: -30px;
+    margin-top: -30px !important;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -3206,7 +3192,7 @@ height: 100%;
   padding: 06px 18px;
   float: right;
   margin-right: 0px;
-  margin-top: -30px;
+  margin-top: -05px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -4038,7 +4024,7 @@ margin-bottom: 100px;
 
 .h2project2 {
   color: white;
-  font-size: 50px;
+  font-size: 60px;
   position: relative;
   top: -250px;
   z-index: 2;
