@@ -16,6 +16,7 @@ import Reviews from './components/Reviews';
 import Header from './components/Header';
 import About from "./components/About";
 import Whatsapp from "./components/Whatsapp";
+import Work from "./components/Work";
 
 AOS.init({
   duration: 1200
@@ -35,9 +36,13 @@ function App() {
         <About />
 
       </div>
+      <div>
+      <Brands />
+
+      </div>
 
       <div>
-        <Brands />
+        <Work/>
 
       </div>
       <div>

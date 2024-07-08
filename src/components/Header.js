@@ -21,13 +21,13 @@ const Header = ( ) =>{
     };
   
 
-    const navLinkStyles = ({ isActive }) => {
-        return {
-          // fontWeight: isActive ? 'bold' : 'normal',
-          // color: isActive ? '#279EFF' : '#ffffff',
-          // borderBottom: isActive? '3px solid #ffffff' : 'none',
-        }
-      }
+    // const navLinkStyles = ({ isActive }) => {
+    //     return {
+    //       // fontWeight: isActive ? 'bold' : 'normal',
+    //       // color: isActive ? '#279EFF' : '#ffffff',
+    //       // borderBottom: isActive? '3px solid #ffffff' : 'none',
+    //     }
+    //   }
     
     
 
@@ -43,7 +43,7 @@ const Header = ( ) =>{
 <nav className="navbar navbar-expand-xl navbar-dark"  >
 
 
-  <a className="navbar-brand" href="#" id="stico" >
+  <a className="navbar-brand" href="/" id="stico" >
     <img id='logo' style={{ marginTop:"12px" }} src={logo} width={135} height={35} className="d-inline-block align-top" alt="" />
     
 
@@ -54,18 +54,26 @@ const Header = ( ) =>{
   <div className="collapse navbar-collapse homenav" id="navbarSupportedContent">
     <ul className="navbar-nav ms-auto" >
       <li className="nav-item">
-        <NavLink to="/"   id="aboutaa"  style={navLinkStyles}  className="nav-link"  >
+        <NavLink to="/"   id="nav-home"    className="nav-link"  >
              Home
         </NavLink>
       </li>
    
       <li className="nav-item" >
-        <NavLink to="/about" onClick={() => scrollToSection("about")} style={navLinkStyles} smooth="true"  behavior="smooth" id="" className="nav-link " >   About </NavLink>
+        <NavLink to="/about" onClick={() => scrollToSection("about")}  smooth="true"  behavior="smooth" id="nav-about" className="nav-link " >   About </NavLink>
       </li>
      
       <li className="nav-item" >
-        <NavLink to="/digitalback" onClick={() => scrollToSection("digitalback")} smooth="true" id="abouta2" style={navLinkStyles} className="nav-link ">  Services</NavLink>
+        <NavLink to="/work-main" onClick={() => scrollToSection("work-main")} smooth="true" id="nav-work"  className="nav-link ">  Work</NavLink>
       </li>
+
+      <li className="nav-item" >
+        <NavLink to="/digitalback" onClick={() => scrollToSection("digitalback")} smooth="true" id="nav-services" className="nav-link ">  Services</NavLink>
+      </li>
+      <li className="nav-item" >
+        <NavLink to="/footerback" onClick={() => scrollToSection("footerback")} smooth="true" id="nav-contact"  className="nav-link ">  Contact</NavLink>
+      </li>
+      
       
       
       

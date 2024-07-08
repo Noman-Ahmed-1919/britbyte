@@ -39,7 +39,7 @@ app.post("/email-data", async (req, res) => {
 
 let mailOptions = {
   from: "alanwalters@bytebrit.io",
-  to: req.body.email,
+  to: "alanwalters@bytebrit.io",
   cc: "alanwalters@bytebrit.io",
   subject: "Welcome to bytebrit",
   text: req.body.message,

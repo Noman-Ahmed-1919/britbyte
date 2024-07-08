@@ -99,9 +99,13 @@ const Work = () => {
 
 
                             <div id='gape-img' className='frame10'>
+                                
+                                <div className='mobile-fixing'>
                                 <img src={workimg1} alt="star" className="workimg1" />
 
-                                <h2 className="h2project frame11" >TENUP</h2>
+                                </div>
+
+                                <h2 className="h2project  frame11" >TENUP</h2>
                                 <h3 className='h3tenup frame11' >Product Design, UIUX <br></br>
                                     Design, Branding Visual <br></br>
                                     Design, Art Direction</h3>

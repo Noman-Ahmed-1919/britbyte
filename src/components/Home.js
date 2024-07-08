@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Header from "./Header";
 
 import Marquee from 'react-fast-marquee';
-import Work from './Work';
 
 
 
@@ -34,7 +33,7 @@ const Home = () => {
     return (
         <>
 
-            <div className="sub-sec">
+            <div className="sub-sec" id='home'>
 
                 <div id="section1">
                     <Header />
@@ -74,7 +73,6 @@ const Home = () => {
             </div>
 
 
-<Work/>
 
 
 

@@ -19,22 +19,24 @@ const Footer = () => {
 
 
 
-// function of sending email data
-const handleSubmit = async (e) => {
-    e.preventDefault();
-    console.log("Form submitted with email:", email, "and message:", message);
+    // function of sending email data
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        console.log("Form submitted with email:", email, "and message:", message);
 
 
-    try {
-        const res = await axios.post("http://localhost:5000/email-data", { email, message });
-        console.log(res);
-        window.location.reload(); // This will refresh the page
+        try {
+            const res = await axios.post("http://localhost:5000/email-data", { email, message });
+            console.log(res);
+            toast.error("Email Send Successfully!");
 
-    } catch (error) {
-      console.log(error);
-      toast.error("Something Went Wrong in Input Form");
-    }
-  };
+            window.location.reload(); // This will refresh the page
+
+        } catch (error) {
+            console.log(error);
+            toast.error("Something Went Wrong in Input Form");
+        }
+    };
 
 
 
@@ -101,12 +103,12 @@ const handleSubmit = async (e) => {
 
                         </div>
 
-                            <div className="col-md-4">
-                            <form  onSubmit={handleSubmit} >
+                        <div className="col-md-4">
+                            <form onSubmit={handleSubmit} >
 
-                                <input className="enter"  placeholder="Enter your email..."
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
+                                <input className="enter" placeholder="Enter your email..."
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
                                 ></input>
 
                                 <div className="message-box" name="message">
@@ -124,9 +126,9 @@ const handleSubmit = async (e) => {
 
 
                                 </div>
-                                </form>
+                            </form>
 
-                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -138,13 +140,12 @@ const handleSubmit = async (e) => {
                         <div className="col-12">
 
                             <div className="horizontal-links">
-                                <Link to="/">home</Link>
 
-                                {/* <a href="#home" >home</a> */}
-                                <a href="#about">about</a>
-                                <a href="#work">work</a>
-                                <a href="#services">services</a>
-                                <a href="#contact">contact</a>
+                                <a className="fothome" href="#home" >home</a>
+                                <a className="fotabout" href="#about">about</a>
+                                <a className="fotwork" href="#work-main">work</a>
+                                <a className="fotdigital" href="#digitalback">services</a>
+                                <a className="fotback" href="#footerback">contact</a>
                             </div>
 
                         </div>

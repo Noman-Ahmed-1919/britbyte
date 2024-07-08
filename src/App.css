@@ -19,6 +19,38 @@ body {
   z-index: 2;
 }
 
+#nav-home{
+  color: white;
+}
+#nav-home:hover{
+  color: purple;
+}
+#nav-about{
+  color: white;
+}
+#nav-about:hover{
+  color: purple;
+
+}
+#nav-work{
+  color: white;
+}
+#nav-work:hover{
+  color: purple;
+}
+#nav-services{
+  color: white;
+}
+#nav-services:hover{
+  color: purple;
+}
+#nav-contact{
+  color: white;
+}
+#nav-contact:hover{
+  color: purple;
+}
+
 
 .head-web{
   max-width: 1800px;
@@ -79,9 +111,8 @@ body {
 }
 
 .heanav{
-  /* background-image: url(./images/header.png);
-  background-size: cover;
-  background-repeat: no-repeat; */
+ position: relative;
+ z-index: 2;
 
 }
 
@@ -372,6 +403,7 @@ header.scrolled {
   margin-top: -40px;
   margin-bottom: 40px;
   text-align: center;
+ 
 }
 
 #img1 {
@@ -676,15 +708,6 @@ header.scrolled {
   text-align: center;
   color: white;
   font-family: 'Nova Klasse', sans-serif;
-  /* 
-  background: linear-gradient(white 20%, white 13%, #7713DB 33%, #7713DB 76%, white 13%, white 13%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-
-  /* background: linear-gradient(white 10%, #7713DB 40%, white 70%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-
   background: linear-gradient(to right, white 10%, #7713DB 40%, white 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -807,8 +830,7 @@ header.scrolled {
 }
 
 .sendbutton:hover {
-  background-color: white;
-  background: linear-gradient(to right, white 10%, #7713DB 40%, white 90%);
+  color: purple;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1191,15 +1213,7 @@ header.scrolled {
 
 
 
-.nav-item{
-  position: relative;
-  z-index: 2;
-}
 
-.nav-link{
-  position: relative;
-  z-index: 2;
-}
 
 
 
@@ -1481,7 +1495,7 @@ height: 100%;
   color: white;
   font-size: 100px;
   position: relative;
-  top: -350px;
+  top: -400px;
   /* Add position property */
   z-index: 2;
   /* Set a lower z-index value */
@@ -1515,7 +1529,7 @@ height: 100%;
   z-index: 2;
   /* Set a lower z-index value */
   position: relative;
-  top: -350px;
+  top: -400px;
 
 }
 
@@ -3191,8 +3205,8 @@ height: 100%;
   background-color: #635280;
   padding: 06px 18px;
   float: right;
-  margin-right: 45px;
-  margin-top: -30pxpx;
+  margin-right: 0px;
+  margin-top: -30px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -3940,3 +3954,164 @@ margin-bottom: 100px;
 
 
 /* =========================== END WHATSAPP CSS ====================================================== */
+
+
+.fothome{
+
+}
+.fothome:hover{
+  color: #7312D5;
+
+}
+.fotabout{
+
+}
+.fotabout:hover{
+  color: #7312D5;
+
+}
+.fotwork{
+
+}
+.fotwork:hover{
+  color: purple;
+
+}
+.fotdigital{
+
+}
+.fotdigital:hover{
+  color: purple;
+
+}
+.fotback{
+
+}
+.fotback:hover{
+  color: purple;
+
+}
+
+
+
+
+@media screen and (min-width: 556px) and (max-width: 960px) {
+
+  .h1work {
+    font-family: 'Nova Klasse';
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+}
+
+
+@media screen and (min-width: 50px) and (max-width: 556px) {
+
+  .mobile-fixing{
+    max-width: 100%;
+  }
+  
+  .workimg1{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .h1work {
+    font-family: 'Nova Klasse';
+    padding-top: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.h2project2 {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: -250px;
+  z-index: 2;
+}
+
+.h3tenup2 {
+  color: white;
+  position: relative;
+  /* Add position property */
+  z-index: 2;
+  /* Set a lower z-index value */
+  position: relative;
+  top: -250px;
+
+}
+.h3tenup1 {
+  color: white;
+  position: relative;
+  /* Add position property */
+  z-index: 2;
+  /* Set a lower z-index value */
+  position: relative;
+  top: -250px;
+
+}
+.h2project1 {
+  color: white;
+  font-size: 60px;
+  /* Add position property */
+  z-index: 2;
+  position: relative;
+  top: -250px;
+
+}
+.h3tenup {
+  color: white;
+  position: relative;
+  /* Add position property */
+  z-index: 2;
+  /* Set a lower z-index value */
+  position: relative;
+  top: -250px;
+
+}
+.h2project {
+  color: white;
+  font-size: 60px;
+  position: relative;
+  top: -250px;
+  /* Add position property */
+  z-index: 2;
+  /* Set a lower z-index value */
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 556px) and (max-width: 800px) {
+
+.h2project2 {
+  color: white;
+  font-size: 88px;
+  position: relative;
+  top: -350px;
+  z-index: 2;
+}
+
+}
